@@ -1,6 +1,7 @@
 import xlrd
 import json
 
+# xlrd版本需要是1.2.0
 data = xlrd.open_workbook("Book1.xlsx")
 table = data.sheets()[0]
 n = table.nrows
